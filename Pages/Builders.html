@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/Styles/index.css" />
-    <link rel="stylesheet" href="/Styles/contact.css" />
     <link rel="stylesheet" href="/Styles/defaul.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/Styles/Builders.css" />
+    <link rel="stylesheet" href="/Styles/contact.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
       rel="stylesheet"
@@ -16,9 +17,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <title>Document</title>
+    <title>Devonshire</title>
   </head>
   <body>
+    <!-- NAVBAR -->
     <nav class="navbar">
       <div class="devonshireTitle">
         <a href="../Pages/index.html">
@@ -34,9 +36,9 @@
         <div class="dropdown">
           <a href="/Pages/living.html">Devonshire Living</a>
           <div class="dropdown-content">
-            <a href="/Pages/living.html">Living</a>
-            <a href="/Pages/Builders.html">Builders</a>
-            <a href="/Pages/neighborhood.html">Neighborhood</a>
+            <a href="#Tradition">Tradition</a>
+            <a href="/Pages/builders.html">Builders</a>
+            <a href="#Neighbors">Neighborhood</a>
           </div>
         </div>
 
@@ -45,23 +47,75 @@
     </nav>
 
     <section>
-      <div class="background-Img">
-        <p>Contact us</p>
+      <div class="titleRelative">
+        <h1 class="buildersTitle">Builders</h1>
+        <img
+          class="gif"
+          src="/Images/ezgif.com-animated-gif-maker.gif"
+          alt=""
+        />
       </div>
     </section>
 
-    <section class="container-contact">
-      <h1>Contact Us</h1>
-      <hr />
-      <p>
-        We certainly want to get to know you and ensure you get the answers you
-        need.
-      </p>
-      <p>Please fill out the form below so we can get started.</p>
+    <section class="container-builder">
+      <div>
+        <h1>Builders</h1>
+      </div>
+      <table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Community Area</th>
+        </tr>
+        <tr>
+          <td>Highland Homes</td>
+          <td>Tel: (972).789.3500</td>
+          <td>Dallas-Fort Worth</td>
+        </tr>
+        <tr>
+          <td>Perry Homes</td>
+          <td>Tel: (855)-228-9047</td>
+          <td>Dallas-Fort Worth</td>
+        </tr>
+        <tr>
+          <td>Shaddock Homes</td>
+          <td>Tel: (972) 526-7700</td>
+          <td>Dallas-Fort Worth</td>
+        </tr>
+        <tr>
+          <td>Ameritex Homes</td>
+          <td>Tel: (972) 440-5516</td>
+          <td>Dallas-Fort Worth</td>
+        </tr>
+      </table>
     </section>
 
-    <section class="container-form">
-      <div class="contact">
+    <section class="builders-pictures">
+      <div>
+        <img
+          src="/Images/HighLand Homes.jpg
+            "
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="/Images/Perry Homes.jpg
+            "
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="/Images/Shaddock Homes.jpg
+            "
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="container-form-2">
+      <div class="contact-2">
         <h1>Request More Information</h1>
         <hr class="hr-form" />
 
@@ -73,28 +127,9 @@
           <label for="email">Email</label>
           <input type="text" required />
           <label for="message">Message</label>
-          <textarea name="message" id=""></textarea>
-          <button class="form-button" type="submit">Submit</button>
+          <textarea class="textArea" name="message" id=""></textarea>
+          <button class="form-button-2" type="submit">Submit</button>
         </form>
-      </div>
-    </section>
-
-    <section class="container-social">
-      <div class="social">
-        <div class="icons">
-          <i class="fa-solid fa-phone"></i>
-          <a href="tel:972-552-2820">972-552-2820</a>
-        </div>
-        <div class="icons">
-          <i class="fa-solid fa-envelope"></i>
-          <a href="mailto:info@devonshireliving.com"
-            >info@devonshireliving.com</a
-          >
-        </div>
-        <div class="icons">
-          <i class="fa-sharp fa-solid fa-location-dot"></i>
-          <a href="#">1201 Ravenhill Drive Forney, Texas 75126</a>
-        </div>
       </div>
     </section>
 
@@ -124,9 +159,10 @@
           <p>announcements, and more!</p>
           <a href="https://www.instagram.com/"
             ><i class="fa-brands fa-instagram instaIcon"></i
-              
           ></a>
-          <a href="https://x.com/?lang=en"><i style="color: black;" id="twitter"  class="fa-brands fa-twitter"></i></a>
+          <a href="https://x.com/?lang=en"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
         </div>
         <div>
           <h4>Get in Touch</h4>
