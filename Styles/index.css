@@ -262,7 +262,6 @@ hr {
 .container-secFourth hr {
   width: auto;
   border: 1px thin #00806c;
-  
 }
 
 .container-secFourth p {
@@ -274,6 +273,24 @@ hr {
   display: flex;
   justify-content: space-around;
   
+}
+.container-quicklinks a {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  color: black;
+  
+}
+.container-quicklinks a:hover {
+  color: #77d682;
+}
+.container-quicklinks ul{
+  list-style-type: none;
+}
+i{
+  font-size: 2rem;
+  color: black;
+  margin-top: 1rem;
 }
 
 /* FOOTER */

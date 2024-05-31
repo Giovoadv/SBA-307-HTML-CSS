@@ -179,7 +179,59 @@ textarea {
   align-self: center;
 }
 
+.form-button:hover {
+  background-color: #729776;
+}
+
 .hr-form {
   width: 80%;
   margin: auto;
 }
+
+.container-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e5e5e5;
+  padding: 2rem;
+  background-color: #f1f1f1;
+  overflow: auto;
+}
+
+.social {
+  border-radius: 5px;
+  border: 0px solid gray;
+  padding: 2rem;
+  box-shadow: 1px 1px 10px rgb(219, 219, 219);
+  height: 20vh;
+  width: 45vw;
+  background-color: #00806c;
+  overflow: auto;
+  display: flex;
+}
+
+.icons {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+i{
+  color: white;
+  font-size: 2rem;
+ 
+}
+
+.instaIcon{
+  color: black;
+}
+.icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  text-wrap: nowrap;
+}
+/* #twitter{
+  color: black;
+} */
