@@ -3,6 +3,7 @@ Devonshire Website:
 Welcome to the Devonshire Website! This website serves as a central hub for our community, providing residents with information, resources, and a platform for communication.
 
 Features:
+
 Announcements: Receive important announcements and updates from the neighborhood association or local authorities.
 
 Events Calendar: Stay updated on local events, gatherings, and activities happening in the neighborhood.
